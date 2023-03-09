@@ -77,7 +77,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={orlundo} layout="fill" objectFit="scale-down" className="" />
+              <Image src={orlundo} layout="fill" objectFit="scale-down" className="" alt="orlundo" />
             </div>
           </div>
         </section>
@@ -99,7 +99,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-             <Image src={code} width={100} height={100} />
+             <Image src={code} width={100} height={100} alt="code" />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Code
               </h3>
@@ -112,7 +112,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">MySQL</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-            <Image src={design} width={100} height={100} />
+            <Image src={design} width={100} height={100} alt="design" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Design
               </h3>
@@ -126,7 +126,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} alt="consulting" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
               <p className="py-2">
                 Are you interested in feedback for your current project? I can
@@ -148,6 +148,7 @@ export default function Home() {
                 height={"100%"}
                 layout = "responsive"
                 src={snappy}
+                alt="snappy"
               />
              
               </Link>
@@ -160,6 +161,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={merkle}
+                alt="merkle"
               />
              </Link>
             </div>
@@ -172,6 +174,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={r21}
+                alt="r21"
               />
               
               </Link>
@@ -186,6 +189,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={aliens}
+                alt="aliens"
               />
               
               </Link>
